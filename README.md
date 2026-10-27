@@ -4,7 +4,7 @@
 
 <p>Two balls, one force. Gravity simulation in Python and pygame.</p>
 
-<img src="Screenshot from 2026-10-27 17-51-22.png" width="400">
+<img src="Pictures/Screenshots/Screenshot from 2026-10-27 17-51-22.png" width="400">
 
 </div>
 
