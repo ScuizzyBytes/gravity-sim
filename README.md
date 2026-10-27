@@ -2,24 +2,43 @@
 
 <h1>🌌 gravity-sim</h1>
 
-<p><b>Two balls, one force.</b></p>
+<p><b>Two balls pulled together by gravity.</b><br>
+Built with Python and pygame.</p>
 
 <img src="https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/pygame-2.x-00B140">
-<img src="https://img.shields.io/badge/physics-gravity-ff4d4d">
-<img src="https://img.shields.io/badge/made%20on-Ubuntu-E95420?logo=ubuntu&logoColor=white">
+<img src="https://img.shields.io/badge/license-MIT-blue">
 
 <br><br>
 
-<img src="screenshot.png" width="400">
+<img src="screenshot.png" width="420">
 
 </div>
 
-## ⚙️ How it works
+---
 
-- 🔴🔵 Balls attract each other: `F = G * m1 * m2 / r²`
-- 📐 Force is split into x and y with `atan2`, `cos`, `sin`
-- 🧱 Balls bounce off the walls
+## ✨ Features
+
+- 🔴🔵 Two balls attract each other (Newton's law of gravitation)
+- 🧱 Bounce off the walls
+- 🚦 Speed limit so nothing flies away
+
+## 🧠 How it works
+
+Every frame:
+
+1. Find `dx`, `dy` and the distance `r` between the balls
+2. Compute force: `F = G * m1 * m2 / r²`
+3. Split it into x and y with `cos` and `sin` of the angle (`atan2`)
+4. Add it to the velocity, then move the balls
+
+## ⚙️ Settings
+
+| Variable | What it does |
+|----------|--------------|
+| `G` | strength of attraction |
+| `MASS`, `MASS2` | mass of each ball |
+| `MAX_V` | speed limit |
 
 ## 🚀 Run
 
