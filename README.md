@@ -5,14 +5,6 @@
 <p><b>Two balls pulled together by gravity.</b><br>
 Built with Python and pygame.</p>
 
-<img src="https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/pygame-2.x-00B140">
-<img src="https://img.shields.io/badge/license-MIT-blue">
-
-<br><br>
-
-<img src="screenshot.png" width="420">
-
 </div>
 
 ---
