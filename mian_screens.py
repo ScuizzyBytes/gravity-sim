@@ -6,8 +6,8 @@ pygame.init()
 W, H = 800, 800
 screen = pygame.display.set_mode((W, H))
 
-atom_red = pygame.image.load("Atoms/atom_red.png").convert_alpha()
-atom_blue = pygame.image.load("Atoms/atom_blue.png").convert_alpha()
+atom_red = pygame.image.load("atom_red.png").convert_alpha()
+atom_blue = pygame.image.load("atom_blue.png").convert_alpha()
 
 SIZE = 20
 
